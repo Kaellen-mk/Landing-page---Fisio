@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Crimson+Pro:wght@400;600&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+==========================================================================
+【AI HANDOVER NOTE】
+1. DESIGN PHILOSOPHY:
+   - Healthcare Warmth with Professional Trust: This design system embodies 'Healing Touch Modernism' — a philosophy that balances clinical professionalism with human warmth. The aesthetic draws from biophilic design principles, using green as a symbol of renewal, growth, and vitality.
+   - Visual Style: Soft Neo-minimalism with Organic Flow. Rounded corners (0.75rem) create approachable, non-threatening surfaces. Subtle shadows suggest depth without heaviness. The green palette evokes nature's healing properties while maintaining medical credibility.
+   - Rationale: For a physiotherapy landing page targeting patients in pain, the design must feel safe, hopeful, and transformative. Green psychology reduces anxiety and promotes calm — essential for healthcare conversion.
+
+2. TYPOGRAPHY:
+   - Sans (Plus Jakarta Sans): Chosen for its friendly geometric forms with humanist warmth. The rounded letterforms feel approachable yet professional — perfect for emotional healthcare messaging in Portuguese. Its excellent legibility at all sizes ensures accessibility for elderly patients.
+   - Display (Crimson Pro): Used sparingly for hero headlines to add elegance and gravitas. Its serif structure conveys expertise and trustworthiness, balancing the sans' friendliness.
+
+3. COLOR SYSTEM:
+   - Brand Primary (Green Hue 150): A balanced teal-green (not too yellow, not too blue) represents both nature and medical professionalism. In OKLCH, we use H=150 for consistency across light/dark modes.
+   - Light Mode: --brand maps to --primary (medium green for CTAs), --accent (lighter green for highlights), --ring (focused green for accessibility). Background is warm near-white (L=0.98) to reduce eye strain.
+   - Dark Mode: Deep forest green background (L=0.12) with elevated green accents. Maintains warmth through slightly increased chroma.
+   - Semantic Colors: --success uses the brand green family. --destructive is a muted coral (not aggressive red) suitable for healthcare. --warning is a gentle amber.
+
+4. USAGE GUIDE:
+   - Layout: Full-width hero with centered container (max-w-7xl) for content sections. Use Bento-style cards for specialties with subtle backdrop-blur on hover.
+   - Effects: Apply soft shadows (shadow-sm/md) to cards. Use gradient backgrounds (from brand-primary to accent) in hero section. Implement smooth scroll animations with intersection observers.
+   - CTA Strategy: Dark green buttons (--primary) with high contrast white text. Add subtle scale transform on hover. WhatsApp integration should use the primary green to maintain brand consistency.
+   - Accessibility: Ensure all text meets WCAG AA standards. Use --muted for secondary text, never pure gray. Rounded corners and generous padding create touch-friendly targets for mobile users.
+   - Portuguese Optimization: Plus Jakarta Sans has excellent support for Portuguese diacritics (ã, õ, ç). Line-height should be 1.6-1.8 for body text to accommodate longer Portuguese words.
+==========================================================================
+*/
+
+:root {
+  /* Typography */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', monospace;
+
+  /* Radius */
+  --radius: 0.75rem;
+
+  /* Core UI Tokens — Palette from reference: #005F70 (dark teal) + #26BF80 (vibrant teal-green) */
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+  /* Primary = #26BF80 vibrant teal-green */
+  --primary: #26BF80;
+  --primary-foreground: #ffffff;
+  --secondary: #e6f7f1;
+  --secondary-foreground: #004d5c;
+  --muted: #f0faf6;
+  --muted-foreground: #666666;
+  --accent: #26BF80;
+  --accent-foreground: #ffffff;
+  --destructive: oklch(0.55 0.18 25);
+  --destructive-foreground: #ffffff;
+  --border: #d1ede4;
+  --input: #d1ede4;
+  --ring: #26BF80;
+  /* Hero gradient colors */
+  --hero-dark: #005F70;
+  --hero-light: #26BF80;
+  
+  /* Chart Tokens */
+  --chart-1: oklch(0.50 0.16 150);
+  --chart-2: oklch(0.60 0.14 170);
+  --chart-3: oklch(0.55 0.12 130);
+  --chart-4: oklch(0.65 0.10 160);
+  --chart-5: oklch(0.58 0.13 140);
+  
+  /* Sidebar Tokens */
+  --sidebar: oklch(0.96 0.01 150);
+  --sidebar-foreground: oklch(0.25 0.03 150);
+  --sidebar-primary: oklch(0.45 0.15 150);
+  --sidebar-primary-foreground: oklch(0.98 0.005 150);
+  --sidebar-accent: oklch(0.88 0.08 150);
+  --sidebar-accent-foreground: oklch(0.22 0.04 150);
+  --sidebar-border: oklch(0.88 0.02 150);
+  --sidebar-ring: oklch(0.45 0.15 150);
+}
+
+.dark {
+  --background: oklch(0.12 0.03 150);
+  --foreground: oklch(0.92 0.01 150);
+  --card: oklch(0.15 0.03 150);
+  --card-foreground: oklch(0.92 0.01 150);
+  --popover: oklch(0.15 0.03 150);
+  --popover-foreground: oklch(0.92 0.01 150);
+  --primary: oklch(0.65 0.18 150);
+  --primary-foreground: oklch(0.12 0.03 150);
+  --secondary: oklch(0.22 0.04 150);
+  --secondary-foreground: oklch(0.88 0.02 150);
+  --muted: oklch(0.20 0.03 150);
+  --muted-foreground: oklch(0.62 0.02 150);
+  --accent: oklch(0.35 0.12 150);
+  --accent-foreground: oklch(0.92 0.01 150);
+  --destructive: oklch(0.60 0.20 25);
+  --destructive-foreground: oklch(0.95 0.01 150);
+  --border: oklch(0.25 0.04 150);
+  --input: oklch(0.25 0.04 150);
+  --ring: oklch(0.65 0.18 150);
+  
+  /* Chart Tokens */
+  --chart-1: oklch(0.65 0.18 150);
+  --chart-2: oklch(0.70 0.16 170);
+  --chart-3: oklch(0.68 0.14 130);
+  --chart-4: oklch(0.72 0.12 160);
+  --chart-5: oklch(0.67 0.15 140);
+  
+  /* Sidebar Tokens */
+  --sidebar: oklch(0.14 0.03 150);
+  --sidebar-foreground: oklch(0.88 0.02 150);
+  --sidebar-primary: oklch(0.65 0.18 150);
+  --sidebar-primary-foreground: oklch(0.12 0.03 150);
+  --sidebar-accent: oklch(0.35 0.12 150);
+  --sidebar-accent-foreground: oklch(0.92 0.01 150);
+  --sidebar-border: oklch(0.25 0.04 150);
+  --sidebar-ring: oklch(0.65 0.18 150);
+}
+
+@theme inline {
+  /* Shadcn Core Mapping */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Charts Mapping */
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Sidebar Mapping */
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Typography */
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+
+  /* Radius */
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans min-h-screen;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  code, pre {
+    @apply font-mono;
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-primary;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/20 rounded-full hover:bg-muted-foreground/40;
+  }
+}
