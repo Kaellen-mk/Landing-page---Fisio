@@ -156,13 +156,13 @@ export default function Home() {
                   Volte a Viver Sem Dor e com{" "}
                 <span style={{
                 color: "#a8f0d4"
-              }}>Liberdade</span>
+              }}>Liberdade </span>
                   de Movimento
                 </motion.h1>
 
                 <motion.p variants={staggerItem} className="text-lg text-white/80 leading-relaxed max-w-xl">
                   Recupere sua qualidade de vida com atendimento fisioterapêutico
-                  humanizado, personalizado e focado em resultados reais.
+                  personalizado e focado em resultados reais.
                 </motion.p>
 
                 <motion.div variants={staggerItem} className="flex flex-wrap gap-4">
@@ -177,10 +177,10 @@ export default function Home() {
 
                 <motion.div variants={staggerItem} className="flex items-center gap-8 pt-4">
                   {[{
-                  n: "500+",
+                  n: "100+",
                   label: "Pacientes atendidos"
                 }, {
-                  n: "5+",
+                  n: "3",
                   label: "Anos de experiência"
                 }, {
                   n: "100%",

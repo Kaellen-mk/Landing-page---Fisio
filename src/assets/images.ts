@@ -1,9 +1,10 @@
 // Do not edit manually
 
 export const IMAGES = {
-  CAPTURA_DE_TELA3607_55: "/images/Captura de tela3607.png",
-  CAPTURA_DE_TELA6473_53: "/images/Captura de tela6473.png",
-  CAPTURA_DE_TELA9149_54: "/images/Captura de tela9149.png",
+  CAPTURA_DE_TELA3607_55: "/public/images/captura-de-tela-3607.png",
+  CAPTURA_DE_TELA6473_53: "/public/images/captura-de-tela-6473.png",
+  CAPTURA_DE_TELA9149_54: "/public/images/captura-de-tela-9149.png",
+  FISIO_HERO_5: "/public/images/fisio-hero-5.png",
   FISIOTERAPIA_1: "https://images.unsplash.com/photo-1611073615830-9f76902c10fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHwzfHxwaHlzaW90aGVyYXB5JTIwdHJlYXRtZW50JTIwaGFuZHMlMjBtYXNzYWdlJTIwcmVoYWJpbGl0YXRpb258ZW58MHwwfHx8MTc3NzM5OTc4MHww&ixlib=rb-4.1.0&q=80&w=1080",
   FISIOTERAPIA_10: "https://images.unsplash.com/photo-1763982811968-14e8aba3be09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHw5fHxwaHlzaW90aGVyYXB5JTIwdHJlYXRtZW50JTIwaGFuZHMlMjBtYXNzYWdlJTIwcmVoYWJpbGl0YXRpb258ZW58MHwwfHx8MTc3NzM5OTc4MHww&ixlib=rb-4.1.0&q=80&w=1080",
   FISIOTERAPIA_2: "https://images.unsplash.com/photo-1512290746430-3ffb4fab31bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHw2fHxwaHlzaW90aGVyYXB5JTIwdHJlYXRtZW50JTIwaGFuZHMlMjBtYXNzYWdlJTIwcmVoYWJpbGl0YXRpb258ZW58MHwwfHx8MTc3NzM5OTc4MHww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -19,7 +20,6 @@ export const IMAGES = {
   FISIO_HERO_2: "https://images.unsplash.com/photo-1706565029882-6f25f1d9af65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHw3fHxmZW1hbGUlMjBkb2N0b3IlMjB3aGl0ZSUyMGNvYXQlMjBzbWlsaW5nJTIwcHJvZmVzc2lvbmFsJTIwcG9ydHJhaXR8ZW58MHwxfHx8MTc3NzM5OTc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
   FISIO_HERO_3: "https://images.unsplash.com/photo-1678695972687-033fa0bdbac9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBkb2N0b3IlMjB3aGl0ZSUyMGNvYXQlMjBzbWlsaW5nJTIwcHJvZmVzc2lvbmFsJTIwcG9ydHJhaXR8ZW58MHwxfHx8MTc3NzM5OTc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
   FISIO_HERO_4: "https://images.unsplash.com/photo-1612944095914-33fd0a85fcfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHw0fHxmZW1hbGUlMjBkb2N0b3IlMjB3aGl0ZSUyMGNvYXQlMjBzbWlsaW5nJTIwcHJvZmVzc2lvbmFsJTIwcG9ydHJhaXR8ZW58MHwxfHx8MTc3NzM5OTc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
-  FISIO_HERO_5: "public/images/Captura de tela 2026-04-28 145957.png",
   FISIO_HERO_6: "https://images.unsplash.com/photo-1624292001987-04af24d82c24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHwxMHx8ZmVtYWxlJTIwZG9jdG9yJTIwd2hpdGUlMjBjb2F0JTIwc21pbGluZyUyMHByb2Zlc3Npb25hbCUyMHBvcnRyYWl0fGVufDB8MXx8fDE3NzczOTk3OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
   FISIO_HERO_7: "https://images.unsplash.com/photo-1743872384305-e4ab94e6ca5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHwzfHxmZW1hbGUlMjBkb2N0b3IlMjB3aGl0ZSUyMGNvYXQlMjBzbWlsaW5nJTIwcHJvZmVzc2lvbmFsJTIwcG9ydHJhaXR8ZW58MHwxfHx8MTc3NzM5OTc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
   FISIO_HERO_8: "https://images.unsplash.com/photo-1757125736482-328a3cdd9743?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHw1fHxmZW1hbGUlMjBkb2N0b3IlMjB3aGl0ZSUyMGNvYXQlMjBzbWlsaW5nJTIwcHJvZmVzc2lvbmFsJTIwcG9ydHJhaXR8ZW58MHwxfHx8MTc3NzM5OTc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
