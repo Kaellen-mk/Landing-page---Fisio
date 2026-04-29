@@ -3,7 +3,7 @@
 export const IMAGES = {
   CAPTURA_DE_TELA3607_55: "/public/images/captura-de-tela-3607.png",
   CAPTURA_DE_TELA6473_53: "/public/images/captura-de-tela-6473.png",
-  CAPTURA_DE_TELA9149_54: "/public/images/captura-de-tela-9149.png",
+  CAPTURA_DE_TELA9149_54: "/public/images/Captura-de-tela-9149.png",
   FISIO_HERO_5: "/public/images/fisio-hero-5.png",
   FISIOTERAPIA_1: "https://images.unsplash.com/photo-1611073615830-9f76902c10fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHwzfHxwaHlzaW90aGVyYXB5JTIwdHJlYXRtZW50JTIwaGFuZHMlMjBtYXNzYWdlJTIwcmVoYWJpbGl0YXRpb258ZW58MHwwfHx8MTc3NzM5OTc4MHww&ixlib=rb-4.1.0&q=80&w=1080",
   FISIOTERAPIA_10: "https://images.unsplash.com/photo-1763982811968-14e8aba3be09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHw5fHxwaHlzaW90aGVyYXB5JTIwdHJlYXRtZW50JTIwaGFuZHMlMjBtYXNzYWdlJTIwcmVoYWJpbGl0YXRpb258ZW58MHwwfHx8MTc3NzM5OTc4MHww&ixlib=rb-4.1.0&q=80&w=1080",
