@@ -155,10 +155,8 @@ export default function Home() {
                 <motion.h1 variants={staggerItem} className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                   Volte a Viver Sem Dor e com{" "}
                 <span style={{
-                  color: "#a8f0d4"
-                }} className="italic">
-                    Liberdade
-                  </span>{" "}
+                color: "#a8f0d4"
+              }}>Liberdade</span>
                   de Movimento
                 </motion.h1>
 
@@ -352,13 +350,12 @@ export default function Home() {
                 </motion.div>
 
                 <motion.p variants={staggerItem} className="text-muted-foreground leading-relaxed">
-                  Com anos de experiência e uma abordagem 100% centrada no paciente, Joselma de Sousa
-                  acredita que cada pessoa é única e merece um tratamento personalizado que respeite
+                  Com anos de experiência e uma abordagem 100% centrada no paciente, eu acredito que você é único e merece um tratamento personalizado que respeite
                   suas necessidades, limitações e objetivos de vida.
                 </motion.p>
 
                 <motion.p variants={staggerItem} className="text-muted-foreground leading-relaxed">
-                  Seu compromisso vai além da técnica: é sobre acolher, compreender e caminhar junto
+                  Meu compromisso vai além da técnica: é sobre acolher, compreender e caminhar junto
                   com você em direção à sua recuperação. Cada sessão é planejada com cuidado, empatia
                   e dedicação total.
                 </motion.p>
@@ -393,7 +390,7 @@ export default function Home() {
                   Nossa Avaliação
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                  O que nossos pacientes dizem
+                  O que meus pacientes dizem
                 </h2>
               </motion.div>
 
