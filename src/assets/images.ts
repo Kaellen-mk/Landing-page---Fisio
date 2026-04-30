@@ -1,8 +1,8 @@
 // Do not edit manually
 
 export const IMAGES = {
-  CAPTURA_DE_TELA3607_55: "/images/captura-de-tela-3607.png",
-  CAPTURA_DE_TELA6473_53: "/images/captura-de-tela-6473.png",
+  CAPTURA_DE_TELA3607_55: "/images/Captura de tela3607.png",
+  CAPTURA_DE_TELA6473_53: "/images/Captura de tela6473.png",
   CAPTURA_DE_TELA9149_54: "/images/logo.png",
   FISIO_HERO_5: "/images/fisio-hero-5.png",
   FISIOTERAPIA_1: "https://images.unsplash.com/photo-1611073615830-9f76902c10fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHwzfHxwaHlzaW90aGVyYXB5JTIwdHJlYXRtZW50JTIwaGFuZHMlMjBtYXNzYWdlJTIwcmVoYWJpbGl0YXRpb258ZW58MHwwfHx8MTc3NzM5OTc4MHww&ixlib=rb-4.1.0&q=80&w=1080",

@@ -208,3 +208,12 @@
     @apply bg-muted-foreground/20 rounded-full hover:bg-muted-foreground/40;
   }
 }
+
+@layer base {
+  img, video {
+    max-width: 100%;
+    height: auto;
+    display: block; /* ← Adicione isso */
+    min-height: 1px; /* ← E isso */
+  }
+}

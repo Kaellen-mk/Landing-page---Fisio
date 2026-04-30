@@ -86,7 +86,7 @@ export default function Home() {
             <div className="flex items-center justify-between h-16">
               {/* Logo */}
             <a href="#hero" className="flex items-center">
-                <img src="https://i.ibb.co/gbzRXTmX/logo.jpg" alt="Joselma de Sousa – Fisioterapeuta" className={`h-12 w-auto transition-all duration-300 ${scrolled ? "brightness-75" : "brightness-100"}`} />
+                <img src={IMAGES.CAPTURA_DE_TELA9149_54} alt="Joselma de Sousa – Fisioterapeuta" className={`h-12 w-auto transition-all duration-300 ${scrolled ? "brightness-75" : "brightness-100"}`} width="120" height="48" />
               </a>
 
               {/* Desktop nav */}
@@ -206,7 +206,7 @@ export default function Home() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl w-full max-w-md" style={{
                 boxShadow: "0 30px 80px -10px rgba(0,95,112,0.55), 0 0 0 1px rgba(38,191,128,0.25)"
               }}>
-                  <img src={IMAGES.FISIO_HERO_5} alt="Joselma de Sousa – Fisioterapeuta" className="w-full h-auto object-cover" />
+                  <img src={IMAGES.FISIO_HERO_5} alt="Joselma de Sousa – Fisioterapeuta" className="w-full h-auto object-cover" width="800" height="600" />
                   {/* Overlay badge */}
                   <div className="absolute bottom-4 left-4 right-4 bg-white/90 rounded-2xl p-3 flex items-center gap-3 shadow">
                     <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
@@ -463,7 +463,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             {/* Brand logo */}
               <div className="flex items-center">
-                <img src="{IMAGES.CAPTURA_DE_TELA9149_54}" alt="Joselma de Sousa – Fisioterapeuta" className="h-14 w-auto" />
+                <img src={IMAGES.CAPTURA_DE_TELA9149_54} alt="Joselma de Sousa – Fisioterapeuta" className="h-14 w-auto" />
               </div>
 
             {/* Links */}
