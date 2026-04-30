@@ -86,7 +86,7 @@ export default function Home() {
             <div className="flex items-center justify-between h-16">
               {/* Logo */}
             <a href="#hero" className="flex items-center">
-                <img src="public\images\Captura de tela9149.png" alt="Joselma de Sousa – Fisioterapeuta" className={`h-12 w-auto transition-all duration-300 ${scrolled ? "brightness-75" : "brightness-100"}`} />
+                <img src="https://i.ibb.co/gbzRXTmX/logo.jpg" alt="Joselma de Sousa – Fisioterapeuta" className={`h-12 w-auto transition-all duration-300 ${scrolled ? "brightness-75" : "brightness-100"}`} />
               </a>
 
               {/* Desktop nav */}
@@ -463,7 +463,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             {/* Brand logo */}
               <div className="flex items-center">
-                <img src="/images/Captura de tela9149.png" alt="Joselma de Sousa – Fisioterapeuta" className="h-14 w-auto" />
+                <img src="{IMAGES.CAPTURA_DE_TELA9149_54}" alt="Joselma de Sousa – Fisioterapeuta" className="h-14 w-auto" />
               </div>
 
             {/* Links */}
