@@ -214,7 +214,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="text-xs font-bold text-foreground">Joselma de Sousa</p>
-                      <p className="text-xs text-muted-foreground">Fisioterapeuta</p>
+                      <p className="text-xs text-muted-foreground">Fisioterapeuta • CREFITO</p>
                     </div>
                     <div className="ml-auto flex gap-0.5">
                       {[1, 2, 3, 4, 5].map(s => <Star key={s} className="h-3 w-3 fill-yellow-400 text-yellow-400" />)}
