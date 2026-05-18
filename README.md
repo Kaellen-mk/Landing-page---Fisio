@@ -131,20 +131,6 @@ index.html
 
 ---
 
-## 👩‍💻 Desenvolvedora
-
-<div align="center">
-
-<h3>Mikaellen Silva</h3>
-
-<p>
-Desenvolvedora Front-end apaixonada por criar interfaces modernas, responsivas e experiências digitais profissionais.
-</p>
-
-</div>
-
----
-
 ## 📄 Licença
 
 Este projeto está disponível para estudos, inspiração e desenvolvimento pessoal.
