@@ -19,16 +19,6 @@ Desenvolvida com foco em <strong>design profissional</strong>, <strong>experiên
 
 ---
 
-## ✨ Preview do Projeto
-
-<div align="center">
-
-<img width="100%" src="https://i.imgur.com/JlUvsxa.png">
-
-</div>
-
----
-
 ## 🩺 Sobre o Projeto
 
 A proposta deste projeto é apresentar serviços de fisioterapia de maneira moderna, elegante e acessível, transmitindo confiança e profissionalismo para pacientes.
