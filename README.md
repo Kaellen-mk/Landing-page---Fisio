@@ -6,55 +6,75 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
 
 <br><br>
 
-<h3>🌿 Uma landing page moderna e responsiva para fisioterapia</h3>
+<h1>🌿 FisioCare Landing Page</h1>
 
 <p>
-Desenvolvida com foco em <strong>design profissional</strong>, <strong>experiência do usuário</strong> e <strong>conversão de clientes</strong>.
+Uma landing page moderna, elegante e responsiva para clínicas e profissionais de fisioterapia.
 </p>
+
+<p>
+Focada em <strong>performance</strong>, <strong>experiência do usuário</strong> e <strong>conversão de clientes</strong>.
+</p>
+
+<br>
+
+<img src="https://img.shields.io/github/license/Kaellen-mk/Landing-page---Fisio?style=flat-square">
+<img src="https://img.shields.io/github/repo-size/Kaellen-mk/Landing-page---Fisio?style=flat-square">
+<img src="https://img.shields.io/github/last-commit/Kaellen-mk/Landing-page---Fisio?style=flat-square">
 
 </div>
 
 ---
 
-## 🩺 Sobre o Projeto
+# 🩺 Sobre o Projeto
 
-A proposta deste projeto é apresentar serviços de fisioterapia de maneira moderna, elegante e acessível, transmitindo confiança e profissionalismo para pacientes.
+A proposta deste projeto é apresentar serviços de fisioterapia de forma profissional, moderna e acessível, transmitindo confiança e credibilidade aos pacientes.
 
-A landing page foi construída utilizando uma identidade visual em tons de verde, trazendo sensação de:
+A interface foi desenvolvida com uma identidade visual clean em tons de verde, proporcionando sensação de:
 
 * 🌿 Saúde
 * 💚 Bem-estar
 * ✨ Leveza
 * 🩺 Profissionalismo
+* 🤝 Confiança
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+# 🚀 Tecnologias Utilizadas
 
 <div align="center">
 
 <table>
 <tr>
+
 <td align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="60px">
-<br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="65px">
+<br><br>
 <strong>HTML5</strong>
 </td>
 
 <td align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="60px">
-<br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="65px">
+<br><br>
 <strong>CSS3</strong>
 </td>
 
 <td align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60px">
-<br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="65px">
+<br><br>
 <strong>JavaScript</strong>
 </td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="65px">
+<br><br>
+<strong>TypeScript</strong>
+</td>
+
 </tr>
 </table>
 
@@ -62,85 +82,132 @@ A landing page foi construída utilizando uma identidade visual em tons de verde
 
 ---
 
-## 🎨 Interface do Site
+# ✨ Funcionalidades
 
-<div align="center">
-
-| 🌿 Design Moderno                 | 📱 Responsivo                  | ⚡ Performance           |
-| --------------------------------- | ------------------------------ | ----------------------- |
-| Interface elegante e profissional | Adaptado para mobile e desktop | Navegação leve e fluida |
-
-</div>
-
-### ✨ Principais Características
-
-* Layout moderno e organizado
-* Botões de chamada para ação (CTA)
-* Design clean e profissional
-* Estrutura visual intuitiva
-* Seções bem distribuídas
-* Cores harmoniosas em tons de verde
-* Experiência agradável para o usuário
+* ✅ Layout moderno e profissional
+* ✅ Design totalmente responsivo
+* ✅ Navegação fluida e intuitiva
+* ✅ Estrutura otimizada para conversão
+* ✅ Botões de chamada para ação (CTA)
+* ✅ Seções organizadas estrategicamente
+* ✅ Visual clean e minimalista
+* ✅ Compatível com dispositivos móveis
+* ✅ Código limpo e organizado
+* ✅ Melhor escalabilidade com TypeScript
 
 ---
 
-## 📂 Estrutura do Projeto
+# 🎨 Interface
+
+<div align="center">
+
+| 🌿 Moderno                        | 📱 Responsivo                  | ⚡ Performance                          |
+| --------------------------------- | ------------------------------ | -------------------------------------- |
+| Interface elegante e profissional | Adaptado para mobile e desktop | Carregamento rápido e navegação fluida |
+
+</div>
+
+---
+
+# 📂 Estrutura do Projeto
 
 ```bash
 📦 Landing-page---Fisio
  ┣ 📂 assets
+ ┃ ┣ 📂 images
+ ┃ ┗ 📂 icons
  ┣ 📂 css
+ ┃ ┗ 📜 style.css
  ┣ 📂 js
+ ┃ ┗ 📜 script.js
+ ┣ 📂 ts
+ ┃ ┗ 📜 main.ts
  ┣ 📜 index.html
+ ┣ 📜 tsconfig.json
+ ┣ 📜 package.json
  ┗ 📜 README.md
 ```
 
 ---
 
-## ⚙️ Como Executar o Projeto
+# ⚙️ Como Executar o Projeto
 
-### 1️⃣ Clone o repositório
+## 1️⃣ Clone o repositório
 
 ```bash
 git clone https://github.com/Kaellen-mk/Landing-page---Fisio.git
 ```
 
-### 2️⃣ Acesse a pasta do projeto
+---
+
+## 2️⃣ Acesse a pasta do projeto
 
 ```bash
 cd Landing-page---Fisio
 ```
 
-### 3️⃣ Abra o arquivo no navegador
+---
+
+## 3️⃣ Instale as dependências
 
 ```bash
-index.html
+npm install
 ```
 
 ---
 
-## 🌐 Repositório do Projeto
+## 4️⃣ Execute o projeto
+
+```bash
+npm run dev
+```
+
+---
+
+# 💻 Objetivos do Projeto
+
+Este projeto foi desenvolvido com foco em:
+
+* Desenvolvimento Front-end
+* Criação de interfaces modernas
+* Responsividade
+* Organização de código
+* Estrutura profissional de landing pages
+* Experiência do usuário (UX/UI)
+
+---
+
+# 🌐 Repositório do Projeto
 
 <div align="center">
 
 <a href="https://github.com/Kaellen-mk/Landing-page---Fisio">
-<img src="https://img.shields.io/badge/Acessar%20Repositório-22c55e?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/🔗%20Acessar%20Repositório-22c55e?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 </div>
 
 ---
 
-## 📄 Licença
+# 📄 Licença
 
-Este projeto está disponível para estudos, inspiração e desenvolvimento pessoal.
+Este projeto está disponível para:
+
+* 📚 Estudos
+* 💡 Inspiração
+* 🚀 Desenvolvimento pessoal
+* 🎨 Portfólio
 
 ---
 
 <div align="center">
 
-### 💚 Obrigada por visitar este projeto!
+# 💚 Obrigada por visitar este projeto!
 
-⭐ Se gostou, considere deixar uma estrela no repositório.
+Se este projeto te ajudou ou inspirou, considere deixar uma ⭐ no repositório.
+
+<br>
+
+Feito com dedicação e criatividade ✨
 
 </div>
