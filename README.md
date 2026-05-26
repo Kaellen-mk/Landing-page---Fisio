@@ -1,41 +1,73 @@
 # 💚 Landing Page — Fisioterapia
 
-<br><br>
-
 <p>
 Landing page moderna e responsiva desenvolvida para divulgação profissional da minha madrinha, que atua na área da fisioterapia.
 </p>
 
-</div>
+<p>
+O projeto foi criado com foco em uma interface elegante, acessível e acolhedora, transmitindo confiança, bem-estar e profissionalismo.
+</p>
 
 ---
 
 ## 🩺 Sobre o Projeto
 
-O projeto foi criado com foco em:
+Principais objetivos do projeto:
 
-* 💚 Design profissional
-* 📱 Responsividade
-* ⚡ Performance
-* 🌿 Experiência do usuário
+* 💚 Design moderno e profissional
+* 📱 Responsividade para diferentes dispositivos
+* ⚡ Boa performance e navegação fluida
+* 🌿 Experiência agradável para o usuário
 
-A interface utiliza tons de verde para transmitir leveza, saúde e confiança.
+A identidade visual utiliza tons de verde para representar saúde, leveza e confiança.
 
 ---
 
 ## 🚀 Linguagens Utilizadas
 
-<div align="center"> <table> <tr> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="65px"> <br><br> <strong>HTML5</strong> </td> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="65px"> <br><br> <strong>CSS3</strong> </td> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="65px"> <br><br> <strong>JavaScript</strong> </td> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="65px"> <br><br> <strong>TypeScript</strong> </td> </tr> </table> </div>
+<div align="center">
+
+<table>
+<tr>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="65px">
+<br><br>
+<strong>HTML5</strong>
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="65px">
+<br><br>
+<strong>CSS3</strong>
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="65px">
+<br><br>
+<strong>JavaScript</strong>
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="65px">
+<br><br>
+<strong>TypeScript</strong>
+</td>
+
+</tr>
+</table>
+
+</div>
 
 ---
 
 ## ⚙️ Como Executar
 
-```bash id="t82xqp"
+```bash id="f71kqp"
 # Clone o repositório
 git clone https://github.com/Kaellen-mk/Landing-page---Fisio.git
 
-# Acesse a pasta
+# Acesse a pasta do projeto
 cd Landing-page---Fisio
 
 # Instale as dependências
@@ -57,8 +89,9 @@ npm run dev
 
 </div>
 
+---
 
-# 📄 Licença
+## 📄 Licença
 
 Este projeto está disponível para:
 
@@ -71,7 +104,7 @@ Este projeto está disponível para:
 
 <div align="center">
 
-# 💚 Obrigada por visitar este projeto!
+### 💚 Obrigada por visitar este projeto!
 
 Se este projeto te ajudou ou inspirou, considere deixar uma ⭐ no repositório.
 
