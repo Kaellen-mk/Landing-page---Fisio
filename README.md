@@ -1,9 +1,6 @@
 # 💚 Landing Page — Fisioterapia
-<div align="center"> <img src="https://img.shields.io/badge/Status-Concluído-22c55e?style=for-the-badge&logo=vercel&logoColor=white"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
 
 <br><br>
-
-<h2>🌿 FisioCare</h2>
 
 <p>
 Landing page moderna e responsiva desenvolvida para divulgação profissional da minha madrinha, que atua na área da fisioterapia.
