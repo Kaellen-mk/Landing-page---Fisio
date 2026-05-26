@@ -1,11 +1,5 @@
 # 💚 Landing Page — Fisioterapia
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
-<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white">
+<div align="center"> <img src="https://img.shields.io/badge/Status-Concluído-22c55e?style=for-the-badge&logo=vercel&logoColor=white"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
 
 <br><br>
 
@@ -32,9 +26,9 @@ A interface utiliza tons de verde para transmitir leveza, saúde e confiança.
 
 ---
 
-## 🚀 Linguagens
+## 🚀 Linguagens Utilizadas
 
-<div align="center"> <table> <tr> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="65px"> <br><br> <strong>React</strong> </td> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="65px"> <br><br> <strong>TypeScript</strong> </td> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="65px"> <br><br> <strong>Vite</strong> </td> <td align="center"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="65px"> <br><br> <strong>TailwindCSS</strong> </td> </tr> </table> </div>
+<div align="center"> <table> <tr> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="65px"> <br><br> <strong>HTML5</strong> </td> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="65px"> <br><br> <strong>CSS3</strong> </td> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="65px"> <br><br> <strong>JavaScript</strong> </td> <td align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="65px"> <br><br> <strong>TypeScript</strong> </td> </tr> </table> </div>
 
 ---
 
