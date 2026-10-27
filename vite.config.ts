@@ -238,5 +238,13 @@ export default defineConfig(({ mode }) => {
           : process.env.VITE_ENABLE_ROUTE_MESSAGING !== 'false'
       ),
     },
+    build: {
+      sourcemap: false,
+      minify: "esbuild",
+    },
+    esbuild: {
+      legalComments: "none",
+      pure: ["console.log", "console.debug", "console.info"],
+    },
   }
 });

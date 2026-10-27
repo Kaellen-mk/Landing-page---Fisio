@@ -86,11 +86,11 @@ export default function Home() {
             <div className="flex items-center justify-between h-16">
               {/* Logo */}
             <a href="#hero" className="flex items-center">
-                <img src={IMAGES.CAPTURA_DE_TELA9149_54} alt="Joselma de Sousa – Fisioterapeuta" className={`h-12 w-auto transition-all duration-300 ${scrolled ? "brightness-75" : "brightness-100"}`} width="120" height="48" />
+                <img src={`${IMAGES.CAPTURA_DE_TELA9149_54}?v=2`} alt="Joselma de Sousa – Fisioterapeuta" className={`h-12 w-auto transition-all duration-300 ${scrolled ? "brightness-75" : "brightness-100"}`} width="120" height="48" />
               </a>
 
               {/* Desktop nav */}
-              <nav className="hidden md:flex items-center gap-7">
+              <nav className="hidden lg:flex items-center gap-5">
                 {navLinks.map(link => <a key={link.href} href="javascript:void(0)" onClick={() => handleNavClick(link.href)} className={`text-sm font-medium transition-colors hover:text-white/80 ${scrolled ? "text-white/90" : "text-white/90"}`}>
                     {link.label}
                   </a>)}
@@ -101,7 +101,7 @@ export default function Home() {
               </nav>
 
               {/* Mobile toggle */}
-              <button className={`md:hidden p-2 transition-colors ${scrolled ? "text-foreground" : "text-white"}`} onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Abrir menu">
+              <button className="lg:hidden p-2">
                 {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </button>
             </div>
