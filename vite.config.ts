@@ -8,14 +8,10 @@ import { componentTagger } from 'lovable-tagger';
 import path from "path";
 
 import { parse } from '@babel/parser';
-import _traverse from '@babel/traverse';
-import _generate from '@babel/generator';
+import traverse from '@babel/traverse';
+import generate from '@babel/generator';
 import * as t from '@babel/types';
 
-
-// CJS/ESM interop for Babel libs
-const traverse: typeof _traverse.default = ( (_traverse as any).default ?? _traverse ) as any;
-const generate: typeof _generate.default = ( (_generate as any).default ?? _generate ) as any;
 
 function cdnPrefixImages(): Plugin {
   const DEBUG = process.env.CDN_IMG_DEBUG === '1';
@@ -237,6 +233,14 @@ export default defineConfig(({ mode }) => {
           ? process.env.VITE_ENABLE_ROUTE_MESSAGING === 'true'
           : process.env.VITE_ENABLE_ROUTE_MESSAGING !== 'false'
       ),
+    },
+    build: {
+      sourcemap: false,
+      minify: "esbuild",
+    },
+    esbuild: {
+      legalComments: "none",
+      pure: ["console.log", "console.debug", "console.info"],
     },
   }
 });
